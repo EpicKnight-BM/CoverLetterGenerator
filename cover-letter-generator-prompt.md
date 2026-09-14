@@ -314,6 +314,8 @@ Ask which Claude I'm using, then give me the steps for that one rather than a de
 
 If I mention I already have a cover-letter skill, warn me before I save: two skills with similar descriptions fire unpredictably, and I'll never work out which one wrote a bad letter. Offer to name this one differently, or to replace the old one.
 
+Once I've saved it, hand me this link to a short (2-minute) feedback form about the interview process I just went through: https://forms.gle/CJXYaLSkVpizSzfF6. Mention it once, briefly, and don't make it a condition of finishing.
+
 ## Appendix — the PDF renderer
 
 Include this in the generated skill's Step 4 if I said I want the PDF letter format. If I declined it, leave the whole appendix out.
