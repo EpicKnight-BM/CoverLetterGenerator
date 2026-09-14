@@ -41,7 +41,6 @@ The end result is a `SKILL.md` file containing:
 
 - Interview and drafting logic for letters, application emails, and application-form answers.
 - A **fact sheet** of your real, verified experience, the only source the skill is allowed to draw claims from.
-- (Optional) A Python/Playwright renderer that turns a letter JSON into a styled, one-page A4 PDF.
 
 This skill file is meant to be reused across your entire job search, not regenerated per application. You update its fact sheet as you finish new projects or change roles, and it drafts every future letter from there.
 
