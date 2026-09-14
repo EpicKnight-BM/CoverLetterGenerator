@@ -26,6 +26,10 @@ This interview asks for personal, detailed information about your CV, work histo
 
 Separately: this prompt file is just a file. Running it doesn't send anything back to the creator, including the author of this repository. Your answers stay between you and Claude (and Anthropic, per the setting above); no third party sees them.
 
+## Model and effort
+
+Use the most capable model you have access to (Opus, if available), with reasoning/thinking effort turned up rather than left on a fast or lightweight setting. This interview runs on judgment calls, not speed: reading between the lines of a CV, deciding whether a claim is actually defensible, catching a gap in the "Never claim" list. You'll typically run it once per fact sheet update, not repeatedly, so the extra latency is worth it.
+
 ## How to use it
 
 1. Open a conversation with Claude (claude.ai, Claude Code, or Cowork). Cowork is preferred, since it can save the resulting skill directly at the account level.
