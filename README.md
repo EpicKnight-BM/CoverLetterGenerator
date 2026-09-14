@@ -56,3 +56,10 @@ Once saved, the `SKILL.md` is what you actually use for each application. Give i
 - If the PDF renderer was set up, turns the letter into a styled one-page A4 PDF using the look you chose during setup, refusing to render if a banned character or phrase slipped in.
 - Runs a final judgment-level check before handing anything over, tailored to your specific risk areas (ownership mix-ups, name spelling, language consistency, and so on).
 - Keeps its own fact sheet honest over time: it notices when the "last confirmed accurate" date is stale and asks what's changed, and it accepts direct updates ("I finished the X project", "add the Y certification") without needing a job ad in sight, always re-running the same ownership/depth calibration questions before adding anything new.
+
+## Feedback
+
+Two short forms track how well this actually works:
+
+- [Setup feedback](https://forms.gle/CJXYaLSkVpizSzfF6): about the interview process itself. Claude hands you this link right after you save the generated skill.
+- [Skill usage feedback](https://forms.gle/dQd6afsHbwXZCm4j6): about the letters the finished skill produces once you've used it on a real application.
