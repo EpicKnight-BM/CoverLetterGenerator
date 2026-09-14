@@ -44,3 +44,16 @@ The end result is a `SKILL.md` file containing:
 - (Optional) A Python/Playwright renderer that turns a letter JSON into a styled, one-page A4 PDF.
 
 This skill file is meant to be reused across your entire job search, not regenerated per application. You update its fact sheet as you finish new projects or change roles, and it drafts every future letter from there.
+
+## What the finished skill does
+
+Once saved, the `SKILL.md` is what you actually use for each application. Give it a company name and a job ad (pasted text or a link), and it:
+
+- Asks a single round of quick questions: letter, email, or form box; which language, if more than one was built in; a form field's exact wording and character limit, if relevant.
+- Researches the role and the company: reads the ad closely, and finds one or two genuinely specific things about the company worth mentioning (no generic praise).
+- Picks the strongest true overlaps between the ad and your fact sheet, following the "default lead by role type" table built during setup, and is honest about it when an ad asks for something you don't have.
+- Drafts strictly from the fact sheet: your voice, your verified projects, your calibrated skill tiers. It cannot invent experience or round up a claim you flagged as unverifiable.
+- Delivers the right format for the job: a 350-450 word letter, a 200-300 word email, or a 150-250 word form answer, each with the correct structure, salutation rules, and length for that format.
+- If the PDF renderer was set up, turns the letter into a styled one-page A4 PDF using the look you chose during setup, refusing to render if a banned character or phrase slipped in.
+- Runs a final judgment-level check before handing anything over, tailored to your specific risk areas (ownership mix-ups, name spelling, language consistency, and so on).
+- Keeps its own fact sheet honest over time: it notices when the "last confirmed accurate" date is stale and asks what's changed, and it accepts direct updates ("I finished the X project", "add the Y certification") without needing a job ad in sight, always re-running the same ownership/depth calibration questions before adding anything new.
