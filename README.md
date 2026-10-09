@@ -50,6 +50,10 @@ This skill file is meant to be reused across your entire job search, not regener
 
 ## What the finished skill does
 
+<p align="center">
+  <img src="assets/skill-demo.svg" width="440" alt="cover-letter skill demo">
+</p>
+
 Once saved, the `SKILL.md` is what you actually use for each application. Give it a company name and a job ad (pasted text or a link), and it:
 
 - Asks a single round of quick questions: letter, email, or form box; which language, if more than one was built in; a form field's exact wording and character limit, if relevant.
