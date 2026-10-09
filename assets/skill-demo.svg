@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 460" width="440" height="460" role="img" aria-label="Claude cover-letter skill demo" xmlns:c2pa="http://c2pa.org/manifest">
+  <style>
+    text { font-family: -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, Consolas, "SF Mono", monospace; }
+    .all { animation: all 14s infinite; }
+    .u  { opacity: 0; animation: u 14s infinite; }
+    .c  { opacity: 0; animation: c 14s infinite; }
+    .t  { opacity: 0; animation: t 14s infinite; }
+    .t circle { animation: b 1s infinite; }
+    .t circle:nth-child(2) { animation-delay: .15s; }
+    .t circle:nth-child(3) { animation-delay: .3s; }
+    .k  { opacity: 0; animation: k 14s infinite; }
+    .l1 { opacity: 0; animation: l1 14s infinite; }
+    .l2 { opacity: 0; animation: l2 14s infinite; }
+    .l3 { opacity: 0; animation: l3 14s infinite; }
+    .l4 { opacity: 0; animation: l4 14s infinite; }
+    .l5 { opacity: 0; animation: l5 14s infinite; }
+    .f  { opacity: 0; animation: f 14s infinite; }
+
+    @keyframes all { 0%,92% {opacity:1} 98%,100% {opacity:0} }
+    @keyframes u  { 0%,3% {opacity:0; transform:translateY(10px)} 7%,100% {opacity:1; transform:none} }
+    @keyframes c  { 0%,10% {opacity:0; transform:translateY(10px)} 14%,100% {opacity:1; transform:none} }
+    @keyframes t  { 0%,15% {opacity:0} 17%,26% {opacity:1} 28%,100% {opacity:0} }
+    @keyframes b  { 0%,60%,100% {transform:translateY(0)} 30% {transform:translateY(-5px)} }
+    @keyframes k  { 0%,27% {opacity:0} 31%,100% {opacity:1} }
+    @keyframes l1 { 0%,32% {opacity:0} 34%,100% {opacity:1} }
+    @keyframes l2 { 0%,35% {opacity:0} 37%,100% {opacity:1} }
+    @keyframes l3 { 0%,38% {opacity:0} 40%,100% {opacity:1} }
+    @keyframes l4 { 0%,41% {opacity:0} 43%,100% {opacity:1} }
+    @keyframes l5 { 0%,44% {opacity:0} 46%,100% {opacity:1} }
+    @keyframes f  { 0%,50% {opacity:0; transform:translateY(12px)} 55%,100% {opacity:1; transform:none} }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="439" height="459" rx="22" fill="#111116" stroke="#2a2a33"/>
+  <circle cx="24" cy="26" r="6" fill="#3a3a42"/>
+  <circle cx="44" cy="26" r="6" fill="#3a3a42"/>
+  <circle cx="64" cy="26" r="6" fill="#3a3a42"/>
+  <text x="90" y="30" class="mono" font-size="12" fill="#8a8a96">Claude</text>
+  <line x1="0" y1="52" x2="440" y2="52" stroke="#2a2a33"/>
+
+  <g class="all">
+    <!-- user message -->
+    <g class="u">
+      <rect x="84" y="68" width="336" height="64" rx="14" fill="#15152b" stroke="#2b2c5a"/>
+      <text x="100" y="96" class="mono" font-size="12.5" fill="#8fa6ff">https://startup.jobs/sustaining-</text>
+      <text x="100" y="116" class="mono" font-size="12.5" fill="#8fa6ff">engineer-opswat-10255356</text>
+    </g>
+
+    <!-- assistant card -->
+    <g class="c">
+      <rect x="20.5" y="148.5" width="400" height="190" rx="14" fill="#17171d" stroke="#2a2a33"/>
+    </g>
+
+    <!-- typing dots -->
+    <g class="t" fill="#8f94ff">
+      <circle cx="42" cy="177" r="4"/>
+      <circle cx="56" cy="177" r="4"/>
+      <circle cx="70" cy="177" r="4"/>
+    </g>
+
+    <!-- skill chip -->
+    <g class="k">
+      <rect x="36" y="164" width="146" height="26" rx="13" fill="#20204a" stroke="#2b2c5a"/>
+      <path d="M56 170l1.4 4 4 1.4-4 1.4-1.4 4-1.4-4-4-1.4 4-1.4z" fill="none" stroke="#a9b0ff" stroke-width="1.5" stroke-linejoin="round"/>
+      <text x="70" y="181" font-size="12" font-weight="600" fill="#a9b0ff">cover-letter skill</text>
+    </g>
+
+    <!-- paragraph -->
+    <g font-size="14.5" fill="#e8e8ee">
+      <text class="l1" x="36" y="220">That's a job posting for OPSWAT's Sustaining</text>
+      <text class="l2" x="36" y="242">Engineer role. I checked your strongest</text>
+      <text class="l3" x="36" y="264">projects against it, picked what fits best, and</text>
+      <text class="l4" x="36" y="286">I'm writing the letter in your own voice —</text>
+      <text class="l5" x="36" y="308">then exporting it as a PDF.</text>
+    </g>
+
+    <!-- file card -->
+    <g class="f">
+      <rect x="20.5" y="354.5" width="400" height="72" rx="14" fill="#17171d" stroke="#2a2a33"/>
+      <rect x="36" y="370" width="40" height="40" rx="10" fill="#22222b"/>
+      <g transform="translate(46 380)" fill="none" stroke="#a9b0ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 0H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+        <path d="M10 0v8h8M6 12h8M6 16h8"/>
+      </g>
+      <text x="90" y="388" font-size="14" font-weight="600" fill="#e8e8ee">Cover letter · OPSWAT</text>
+      <text x="90" y="406" font-size="12" fill="#8a8a96">Document · PDF</text>
+      <g transform="translate(318 389)" fill="none" stroke="#8f94ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 0v10M2 6l4 4 4-4M0 14h12"/>
+      </g>
+      <text x="338" y="402" font-size="13" font-weight="600" fill="#8f94ff">Download</text>
+    </g>
+  </g>
+</svg>
